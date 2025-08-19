@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddlewareDemo", "MiddlewareDemo\MiddlewareDemo.csproj", "{C80B2C52-1EE7-45A1-B1D3-C211E5246D73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wwwroot", "wwwroot", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{FF430DB1-55D4-46A5-BBC0-9E6328052818}"
+	ProjectSection(SolutionItems) = preProject
+		site.css = site.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{D9AFA18E-CDC4-4489-9C21-FDCA2EB207FC}"
+	ProjectSection(SolutionItems) = preProject
+		site.js = site.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C80B2C52-1EE7-45A1-B1D3-C211E5246D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C80B2C52-1EE7-45A1-B1D3-C211E5246D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C80B2C52-1EE7-45A1-B1D3-C211E5246D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C80B2C52-1EE7-45A1-B1D3-C211E5246D73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF430DB1-55D4-46A5-BBC0-9E6328052818} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D9AFA18E-CDC4-4489-9C21-FDCA2EB207FC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FBD15CE-C05C-4981-B105-FE1A2147D566}
+	EndGlobalSection
+EndGlobal
